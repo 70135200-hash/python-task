@@ -1,0 +1,10 @@
+file = open("data.txt", "w")
+file.write("Hello, this is my first text file created using Python!")
+file.close()
+print("Data successfully file mein likh diya gaya hai.")
+
+file = open("data.txt", "r")
+content = file.read()
+print("\nFile ke andar ka content yeh hai:")
+print(content)
+file.close()
